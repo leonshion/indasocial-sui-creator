@@ -31,7 +31,7 @@ const Index = () => {
           <div className="text-center py-16">
             <h1 className="text-4xl font-bold mb-4">Welcome to INDA NFT Marketplace</h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Get access and benefits from our community Indasocial
+              Get access and benefits from our community
             </p>
           </div>
         );
