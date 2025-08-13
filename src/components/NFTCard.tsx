@@ -22,10 +22,12 @@ export const NFTCard = ({ id, name, description, attributes, owner, typography }
   return (
     <Card className="w-full max-w-sm mx-auto bg-card border border-border">
       <CardHeader className="text-center">
-        <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg flex items-center justify-center mb-4">
-          <div className="text-6xl font-bold text-primary">
-            {typography}
-          </div>
+        <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg overflow-hidden mb-4">
+          <img 
+            src={typography} 
+            alt={name}
+            className="w-full h-full object-cover"
+          />
         </div>
         <div className="flex items-center justify-between">
           <span className="text-sm text-muted-foreground">#{id}</span>
