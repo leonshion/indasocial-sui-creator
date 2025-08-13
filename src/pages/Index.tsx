@@ -33,9 +33,6 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Create and manage typography-based NFTs on the SUI blockchain
             </p>
-            <div className="max-w-2xl mx-auto">
-              <MintNFT onMint={handleMintNFT} />
-            </div>
           </div>
         );
       
@@ -44,9 +41,6 @@ const Index = () => {
           <div className="py-8">
             <div className="flex justify-between items-center mb-8">
               <h1 className="text-3xl font-bold">My NFTs</h1>
-              <div className="max-w-xs">
-                <MintNFT onMint={handleMintNFT} />
-              </div>
             </div>
             
             {nfts.length === 0 ? (
