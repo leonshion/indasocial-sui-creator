@@ -8,8 +8,8 @@ const Index = () => {
   const [nfts, setNfts] = useState([
     {
       id: "1",
-      name: "Purple Gem",
-      description: "A shimmering purple gemstone NFT",
+      name: "INDA NFT",
+      description: "NFT that gives access to benefits, events and exclusive content to our platform",
       typography: "/lovable-uploads/53535500-77bd-4101-a8fd-55b65d7d3f07.png",
       attributes: [
         { trait_type: "color", value: "purple" },
